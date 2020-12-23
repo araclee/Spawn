@@ -40,7 +40,7 @@ public class SetSpawn implements CommandExecutor {
 
             }
 
-            player.sendActionBar(ChatColor.YELLOW + "INFO: " + ChatColor.WHITE + "Spawn: " + ChatColor.GRAY + "локация сохранена.");
+            player.sendMessage(ChatColor.YELLOW + "INFO: " + ChatColor.WHITE + "Spawn: " + ChatColor.GRAY + "локация сохранена.");
 
             return true;
         }

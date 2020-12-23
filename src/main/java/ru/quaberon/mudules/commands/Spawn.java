@@ -27,7 +27,7 @@ public class Spawn implements CommandExecutor {
 
             player.teleport(location);
 
-            player.sendActionBar(ChatColor.YELLOW + "INFO: " + ChatColor.WHITE + "Spawn: " + ChatColor.GRAY + "Вы были телепортированы на спавн");
+            player.sendMessage(ChatColor.YELLOW + "INFO: " + ChatColor.WHITE + "Spawn: " + ChatColor.GRAY + "Вы были телепортированы на спавн");
 
             return true;
         }

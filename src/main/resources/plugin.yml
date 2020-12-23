@@ -1,6 +1,6 @@
 name: Main
 version: ${project.version}
-main: ru.quaberon.Main
+main: ru.quaberon.Core
 authors: [ aracle ]
 commands:
   SetSpawn:
