@@ -1,0 +1,9 @@
+name: Main
+version: ${project.version}
+main: ru.quaberon.Main
+authors: [ aracle ]
+commands:
+  SetSpawn:
+    description: Set world spawn
+  Spawn:
+    description: Teleport to world spawn
